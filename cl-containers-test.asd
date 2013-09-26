@@ -20,6 +20,7 @@
 			((static-file "notes.text")
 			 (:file "priority-queues")
 			 (:file "trees")
-			 (:file "dlist"))))
+			 (:file "dlist")
+                         (:file "test-set-container"))))
   :depends-on (:cl-containers 
 	       (:version :lift "1.7.0")))
