@@ -5,11 +5,11 @@
 ;;; Support: insert-item, delete-item, search-for-item, size, empty-p, empty!
 ;;; iterate-nodes
 
-(defclass* abstract-bag/set-container (uses-contents-mixin 
+(defclass* abstract-bag/set-container (initial-contents-mixin
+                                         uses-contents-mixin
                                          findable-container-mixin
                                          unordered-container-mixin
-                                         iteratable-container-mixin
-                                         initial-contents-mixin)
+                                         iteratable-container-mixin)
   ())
 
 
